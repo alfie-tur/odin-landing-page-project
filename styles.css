@@ -1,23 +1,24 @@
 
+/* inital code to apply to whole document */
 *{
+    /* removes any gaps between elements */
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1F2937;
-    color: #f9faf8;
+    color: #000000;
 }
 
-
+/* code blocks for everything in the header */
 .headerContainer{
     height: 30px;
     display: flex;
     justify-content: right;
-    gap: 5px
+    gap: 5px;
+    color: white;
 }
-
 .headLink:hover{
     color:orange;
 }
@@ -26,7 +27,6 @@ body{
     padding-right: 15px;
     padding-top: 27px;
 }
-
 #logo{
     justify-content: left;
     font-size: 24px;
@@ -35,13 +35,15 @@ body{
 
 }
 
+/* code blocks for the top section of content */
 .introContainer{
     display: flex;
 }
 .introText{
+    color: #ffffff;
     flex: 1;
     text-align: center;
-    margin-right: 16px;
+    margin-right: 6px;
     padding-left: 6px;
     padding-top: 55px;
 }
@@ -49,6 +51,7 @@ body{
     font-weight: 900;
 }
 #signUp{
+    color: white;
     margin-top: 7px;
     background-color: #3882f6;
     width: 85px;
@@ -59,27 +62,16 @@ body{
     background-color: white;
     color: black;
 }
+/* image in the top section */
 .introImage{
-    
     padding: 4px;
     border-radius: 21px;
     background-color: darkgrey;
 }
 
-#title{
-    font-size: 48px;
-}
-#subtext{
-    font-size: 18px;
-}
-
-#introImage{
-    align-items: right;
-}
-
+/* blocks of code for heading and images with subtext */
 #infoHeader{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     background-color: white;
     text-align: center;
     font-size: 36px;
@@ -87,7 +79,6 @@ body{
     color: black;
 }
 .randInfoContainer{
-    width: auto;
     height: 300px;
     background-color: white;
     color: black;
@@ -96,7 +87,7 @@ body{
     gap: 40px;
 }
 .Pic{
-    width: 200px;
+    width: auto;
     height: 200px;
     margin-top: 5px;
     border: 2px solid rgb(51, 190, 255);
@@ -107,6 +98,7 @@ body{
     padding-top: 100%;
 }
 
+/* grey quote box code blocks */
 .quoteSection{
     text-align: center;
     font-weight: 300;
@@ -119,12 +111,14 @@ body{
     padding-top: 2px;
 }
 
+/* makes chunk of white space between elements */
 .whiteSpace{
     background-color: white;
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
+/* blue sign up box code blocks */
 .boxContainer{
     display: flex;
     justify-content: center;
@@ -150,9 +144,10 @@ body{
     border-width: 3px;
 }
 
+/* code block for the footer */
 .footer{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    color: white;
+    padding: 30px;
     text-align: center;
     font-weight: 100;
 }
