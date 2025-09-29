@@ -37,6 +37,7 @@ body{
 .introText{
     flex: 1;
     margin-right: 16px;
+    padding-left: 6px;
 }
 .introImage{
     flex: 1;
@@ -60,6 +61,7 @@ body{
     width: auto;
     height: 300px;
     background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -70,4 +72,7 @@ body{
     margin-top: 5px;
     border: 2px solid rgb(51, 190, 255);
     border-radius: 10px;
+}
+.imgSubtext{
+    padding-top: 100%;
 }
